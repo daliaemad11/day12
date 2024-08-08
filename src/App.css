@@ -1,0 +1,34 @@
+main{
+height: 100%;
+background-image: url(./assets/images/bg-pattern-top.svg) ,url(./assets/images/bg-pattern-bottom.svg);
+background-repeat: no-repeat;
+background-position-x:-111px,900px ;
+background-position-y:-500px,500px ;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+width: 100%;
+}
+#cardimg{
+  display: flex;
+  flex-direction: column;
+}
+img{
+  width: 100%;
+  height: 29%;
+}
+
+
+@media screen and (max-width:600px) {
+ 
+  #cardimg{
+   row-gap: 100px;
+   width: 200px;
+   height:10px;
+  }
+  main{
+    background-position-x:-800px,0px ;
+    background-position-y:-400px,500px ;
+  }
+  }
